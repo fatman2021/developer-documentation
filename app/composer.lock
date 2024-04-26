@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "6870489ca88cfd2310ec6abde337b371",
+    "content-hash": "e10c327a824f0e04774356e48c8366a1",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -43,7 +43,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-11-19 18:18:56"
+            "time": "2014-11-19T18:18:56+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -94,7 +94,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-05-05 02:43:50"
+            "time": "2014-05-05T02:43:50+00:00"
         },
         {
             "name": "mnapoli/front-yaml",
@@ -127,7 +127,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2014-11-23 22:43:08"
+            "time": "2014-11-23T22:43:08+00:00"
         },
         {
             "name": "slim/extras",
@@ -178,20 +178,20 @@
                 "middleware",
                 "templating"
             ],
-            "time": "2013-01-07 17:56:10"
+            "time": "2013-01-07T17:56:10+00:00"
         },
         {
             "name": "slim/slim",
-            "version": "2.4.3",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeguy/Slim.git",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106"
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "e434525b348963457e00fe3d46376ebb70581781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim/zipball/4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/e434525b348963457e00fe3d46376ebb70581781",
+                "reference": "e434525b348963457e00fe3d46376ebb70581781",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,11 @@
                 "rest",
                 "router"
             ],
-            "time": "2014-04-05 18:33:59"
+            "support": {
+                "issues": "https://github.com/slimphp/Slim/issues",
+                "source": "https://github.com/slimphp/Slim/tree/master"
+            },
+            "time": "2015-03-02T02:13:34+00:00"
         },
         {
             "name": "slim/views",
@@ -278,7 +282,7 @@
                 "slimphp",
                 "templating"
             ],
-            "time": "2014-04-03 16:31:10"
+            "time": "2014-04-03T16:31:10+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -325,7 +329,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-11-20 13:22:25"
+            "time": "2014-11-20T13:22:25+00:00"
         },
         {
             "name": "twig/twig",
@@ -374,7 +378,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-04-08 12:40:11"
+            "time": "2013-04-08T12:40:11+00:00"
         }
     ],
     "packages-dev": [
@@ -430,7 +434,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2014-10-13 12:58:55"
+            "time": "2014-10-13T12:58:55+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -495,7 +499,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-08-31 06:33:04"
+            "time": "2014-08-31T06:33:04+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -540,7 +544,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2013-10-10 15:34:57"
+            "time": "2013-10-10T15:34:57+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -584,7 +588,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2014-01-30 17:20:04"
+            "time": "2014-01-30T17:20:04+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -628,7 +632,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2013-08-02 07:42:54"
+            "time": "2013-08-02T07:42:54+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -677,7 +681,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-08-31 06:12:13"
+            "time": "2014-08-31T06:12:13+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -751,7 +755,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-11-11 10:11:09"
+            "time": "2014-11-11T10:11:09+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -806,7 +810,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-10-03 05:12:11"
+            "time": "2014-10-03T05:12:11+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -870,7 +874,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2014-05-11 23:00:21"
+            "time": "2014-05-11T23:00:21+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -922,7 +926,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2014-08-15 10:29:00"
+            "time": "2014-08-15T10:29:00+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -972,7 +976,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2014-10-22 06:38:05"
+            "time": "2014-10-22T06:38:05+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -1037,7 +1041,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2014-09-10 00:51:36"
+            "time": "2014-09-10T00:51:36+00:00"
         },
         {
             "name": "sebastian/version",
@@ -1072,15 +1076,17 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2014-03-07 15:35:33"
+            "time": "2014-03-07T15:35:33+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
