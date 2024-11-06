@@ -6,7 +6,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "twig/twig": "1.42.*",
+        "twig/twig": "3.11.*",
         "slim/slim": "2.*",
         "slim/extras": "2.*",
         "slim/views": "0.1.*",
